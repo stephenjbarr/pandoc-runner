@@ -1,7 +1,8 @@
 FROM fpco/stack-build:lts-11.2
 
 RUN apt-get update && apt-get install -y \
-    texlive-latex-recommended
+    texlive-latex-recommended \
+    texlive-xetex
     
 RUN stack install pandoc
 
