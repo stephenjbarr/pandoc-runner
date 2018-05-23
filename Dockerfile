@@ -8,3 +8,4 @@ RUN stack install pandoc
 
     
 RUN apt-get install -y texlive-xetex
+RUN apt-get install -y texlive-math-extra
